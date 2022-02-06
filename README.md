@@ -1,16 +1,16 @@
 # node-azure-storage-queue
 Source code to demonstrate the Azure Queue Storage library to interact with a storage queue using node JS.
 
-## steps to run the code
+## Steps to run the code
    - The source code contains a producer and consumer of the messages codes in node JS.
    - The producer adds messages to the storage queue at a rate of one message per 5 seconds.
    - The message is a simple string but this can also be a JSON object or XML.
    - The consumer reads the message from the queue and deletes them.
    - The messages are input to the console window.
 
-## pre-requisites
+## Pre-requisites
    - To run the source code, you need Node installed in your machine.
-   
+
    - You need a text editor to view/modify the code preferably Visual Studio Code but any text editor will do.
 
    - In case, you wish to run the code and check the execution, you will need an Azure Subscription.
